@@ -1,0 +1,63 @@
+Package: mids-271
+Type: Package
+Title: Course Packages for MIDS 271
+Version: 0.1.0
+Author@R: person(
+  given  = "D. Alex",
+  family = "Hughes",
+  email  = "dhughes@berkeley.edu",
+  role   = c("aut", "cre")
+  )
+Maintainer: person(
+  given  = "D. Alex",
+  family = "Hughes",
+  email  = "dhughes@berkeley.edu"
+  )
+Description: This package combines most of the packages necessary to run the compute environment for 271 for the semester.
+    There are a few odds and ends that are not included, but you can choose to add them if you like.
+Depends: R(>= 4.2.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ## Core Data Wrangling
+    tidyverse (>= 1.3.1),
+    data.table (>= 1.14.2),
+    magrittr (>= 2.0.3),
+    ## Producing Documents
+    knitr (>= 1.4.0),
+    ## Discrete Outcome Modeling
+    vcd (>= 1.4-10),
+    nnet (>= 7.3-17),
+    MASS (>= 7.3-58.1)
+    gamlr (>= 1.13-7),
+    ## Time Series Book
+    fpp3 (>= 0.4.0),
+    fpp2 (>= 2.4),
+    ## Time Series Data Management
+    tsibble (>= 1.1.2),
+    lubridate (>= 1.8.0),
+    zoo (>= 1.8-10),
+    ## Time Series Models
+    tseries (>= 0.10-51),
+    feasts (>= 0.2.2),
+    fable (>= 0.3.1),
+    Quandl (>= 2.11.0),
+    vars (>= 1.5-6),
+    quantmod (>= 0.4.20),
+    gtrendsR (>= 1.5.1),
+    simts (>= 0.2.0),
+    ## Panel Models
+    plm (>= 2.6-2),
+    lme4 (>= 1.1-30),
+    ## Some Data Sets
+    car (>= 3.1-0),
+    aplore3 (>= 0.9),
+    ## Odds and Ends Utilities
+    patchwork (>= 1.1.1)
+    Hmisc (>= 4.7-1),
+    gridExtra (>= 2.3),
+    finalfit (>= 1.0.5),
+    stargazer (>= 5.2.3),
+    latex2exp (>= 0.9.4)
+Suggests:
